@@ -14,4 +14,4 @@ Create a wp-config.php with proper DB configuration (Hint: You can use wp-config
 Fix any file permissions, clean up temporary files and restart/reload Nginx config
 Prompt the user to open example.com in a browser if all goes well
 
-In My case I required to enter Password to enter in to Database;
+
