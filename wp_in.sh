@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# WordPress Setup Script
-
-export DEBIAN_FRONTEND=noninteractive;
-
 # Generate root and wordpress mysql passwords
 rootmysqlpass=`dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 -w 0 | rev | cut -b 2- | rev | tr -dc 'a-zA-Z0-9'`;
 wpmysqlpass=`dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 -w 0 | rev | cut -b 2- | rev | tr -dc 'a-zA-Z0-9'`;
